@@ -1,3 +1,4 @@
+"use client";
 const stats = [
   { num: "500+", label: "Active Members" },
   { num: "12", label: "Expert Trainers" },

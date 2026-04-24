@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 const features = [
@@ -16,7 +17,7 @@ export default function About() {
       <div className="reveal relative">
         <div className="relative h-[520px] overflow-hidden before:content-[''] before:absolute before:-top-5 before:-left-5 before:right-5 before:bottom-5 before:border before:border-[#E8593C] before:border-opacity-40 before:z-0">
           <Image
-            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&q=80"
+            src="https://i.pinimg.com/1200x/5c/b2/3a/5cb23a9a13c51f3a71992c0d2e034706.jpg"
             alt="Gym interior"
             fill
             className="object-cover grayscale-[40%] contrast-110 hover:grayscale-0 transition-all duration-500"

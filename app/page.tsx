@@ -74,6 +74,7 @@ import Stats from "@/components/sections/Stats";
 import About from "@/components/sections/About";
 import CtaBand from "@/components/sections/CtaBand";
 import Programs from "@/components/sections/Programs";
+import Trainers from "@/components/sections/Trainers";
 //import Footer from "@/components/Footer";
 //import CustomCursor from "@/components/ui/CustomCursor";
 import ScrollReveal from "@/components/ui/ScrollReveal";
@@ -87,8 +88,9 @@ export default function Home() {
       <main>
         <Hero />
         <Stats />
-        {/* <About /> */}
+        <About /> {/* */}
         <Programs />
+        <Trainers />
         <CtaBand />
       </main>
       {/* <Footer /> */}
