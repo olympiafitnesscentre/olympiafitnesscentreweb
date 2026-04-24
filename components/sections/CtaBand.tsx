@@ -31,7 +31,7 @@ export default function CtaBand() {
           📞 Call Now
         </Link>
         <Link
-          href="https://maps.google.com"
+          href="https://maps.app.goo.gl/j4NAXD38iezDtxDMA"
           target="_blank"
           className="inline-flex items-center gap-2 bg-transparent text-white font-barlow-condensed text-sm font-semibold tracking-[2px] uppercase px-7 py-4 border-[1.5px] border-white/50 hover:border-white hover:-translate-y-0.5 transition-all duration-200"
         >

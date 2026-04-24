@@ -67,33 +67,33 @@ export default function Home() {
 
 */
 
-
+import ScrollReveal from "@/components/ui/ScrollReveal";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
 import Stats from "@/components/sections/Stats";
 import About from "@/components/sections/About";
-import CtaBand from "@/components/sections/CtaBand";
 import Programs from "@/components/sections/Programs";
+import Pricing from "@/components/sections/Pricing";
 import Trainers from "@/components/sections/Trainers";
-//import Footer from "@/components/Footer";
-//import CustomCursor from "@/components/ui/CustomCursor";
-import ScrollReveal from "@/components/ui/ScrollReveal";
+import CtaBand from "@/components/sections/CtaBand";
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
   return (
     <>
-      {/* <CustomCursor /> */}
       <ScrollReveal />
       <Navbar />
       <main>
         <Hero />
         <Stats />
-        <About /> {/* */}
+        <About />
         <Programs />
+        <Pricing />
         <Trainers />
         <CtaBand />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

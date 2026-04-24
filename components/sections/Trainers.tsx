@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const trainers = [
-  { name: "Rajesh Kumar", role: "The G.O.A.T", img: "https://instagram.fakl2-1.fna.fbcdn.net/v/t51.2885-19/317666578_659202725903647_2788274066919346386_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NjAuYzIifQ&_nc_ht=instagram.fakl2-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gHhNIWOOqjsns3IleSKhO31rSATrb1soituzSgzS_kc6kahawNFEf9QN1QLn3n_61o&_nc_ohc=nd-fTo8JnkYQ7kNvwFlrQYk&_nc_gid=3Y3hSuNGHQ6joPrYWWzkAA&edm=AEF8tYYBAAAA&ccb=7-5&oh=00_Af36w6wkWcOxDRQCtv6TQcHo1nD2he8UyeyYk1_mKl36GQ&oe=69F0EA39&_nc_sid=1e20d2" },
+  { name: "Rajesh Kumar", role: "The G.O.A.T", img: "/images/rajesh_kumar.jpg" },
   { name: "Arnold Bro", role: "Cool Guy", img: "https://i.pinimg.com/736x/6a/18/63/6a18635fd170d1c92f2d5a99589acd78.jpg" },
   { name: "Michael Jackson", role: "Zumba Instructor", img: "https://i.pinimg.com/736x/51/e1/31/51e1316f4e4b8b3ad3fb8ca689c92e71.jpg" },
   { name: "Larry", role: "Cat", img: "https://i.pinimg.com/736x/b0/38/12/b03812009fbc0ec8051435043be363d0.jpg"},
