@@ -1,3 +1,4 @@
+/*
 import Image from "next/image";
 
 export default function Home() {
@@ -61,5 +62,36 @@ export default function Home() {
         </div>
       </main>
     </div>
+  );
+}
+
+*/
+
+
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/sections/Hero";
+import Stats from "@/components/sections/Stats";
+import About from "@/components/sections/About";
+import CtaBand from "@/components/sections/CtaBand";
+import Programs from "@/components/sections/Programs";
+//import Footer from "@/components/Footer";
+//import CustomCursor from "@/components/ui/CustomCursor";
+import ScrollReveal from "@/components/ui/ScrollReveal";
+
+export default function Home() {
+  return (
+    <>
+      {/* <CustomCursor /> */}
+      <ScrollReveal />
+      <Navbar />
+      <main>
+        <Hero />
+        <Stats />
+        {/* <About /> */}
+        <Programs />
+        <CtaBand />
+      </main>
+      {/* <Footer /> */}
+    </>
   );
 }
