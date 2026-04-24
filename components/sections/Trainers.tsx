@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const trainers = [
-  { name: "Rajesh Kumar", role: "The G.O.A.T", img: "/images/rajesh_kumar.jpg" },
+  { name: "Rajesh Kumar", role: "The G.O.A.T", img: "/rajesh_kumar.jpg" },
   { name: "Arnold Bro", role: "Cool Guy", img: "https://i.pinimg.com/736x/6a/18/63/6a18635fd170d1c92f2d5a99589acd78.jpg" },
   { name: "Michael Jackson", role: "Zumba Instructor", img: "https://i.pinimg.com/736x/51/e1/31/51e1316f4e4b8b3ad3fb8ca689c92e71.jpg" },
   { name: "Larry", role: "Cat", img: "https://i.pinimg.com/736x/b0/38/12/b03812009fbc0ec8051435043be363d0.jpg"},

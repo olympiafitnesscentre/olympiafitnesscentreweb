@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,10 +21,17 @@ export default function Navbar() {
       }`}
     >
       {/* Logo */}
+       <Link href="/" className="flex items-center group">
+        <Image
+          src="/logo.svg"
+          alt="Olympia Fitness Centre"
+          width={40}
+          height={40}
+        /> {/*
       <Link href="/" className="flex items-center gap-3 group">
         <div className="w-10 h-10 rounded-full border-2 border-[#E8593C] flex items-center justify-center transition-shadow group-hover:shadow-[0_0_16px_rgba(232,89,60,0.4)]">
           <span className="font-oswald font-bold text-[#E8593C] text-base">O</span>
-        </div>
+        </div> */}
         <div>
           <div className="font-oswald font-bold text-white text-base tracking-[2px] leading-none">OLYMPIA</div>
           <div className="font-barlow-condensed text-[9px] tracking-[3px] text-white/40 uppercase">Fitness Centre</div>
