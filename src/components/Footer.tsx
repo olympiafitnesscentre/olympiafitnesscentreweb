@@ -105,6 +105,9 @@ export default function Footer() {
           © 2025 <span className="text-[#E8593C]">Olympia Fitness Centre</span>. All rights reserved. · Perambur, Chennai
         </p>
         <div className="flex gap-5 text-[12px] font-light text-white/30">
+          <Link href="#" className="hover:text-white/60 transition-colors duration-200">v1.3.2</Link>
+        </div>
+        <div className="flex gap-5 text-[12px] font-light text-white/30">
           <Link href="#" className="hover:text-white/60 transition-colors duration-200">Privacy Policy</Link>
           <Link href="#" className="hover:text-white/60 transition-colors duration-200">Terms of Use</Link>
         </div>
