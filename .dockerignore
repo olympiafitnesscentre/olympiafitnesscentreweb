@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js build output
+.next
+out
+
+# Git
+.git
+.gitignore
+
+# Env files (add these manually or via Docker secrets)
+.env
+.env.*
+!.env.example
+
+# Dev tools
+.eslintrc*
+README.md
+download-images.ps1
+
+# OS
+.DS_Store
+Thumbs.db
