@@ -27,6 +27,10 @@ export default function Navbar() {
           alt="Olympia Fitness Centre"
           width={40}
           height={40}
+          priority
+          loading="eager"
+          style={{ width: "auto", height: "50px" }}
+          className="object-contain transition-all duration-300 drop-shadow-[0_0_8px_rgba(232,89,60,0.2)] group-hover:drop-shadow-[0_0_16px_rgba(232,89,60,0.5)]"
         /> {/*
       <Link href="/" className="flex items-center gap-3 group">
         <div className="w-10 h-10 rounded-full border-2 border-[#E8593C] flex items-center justify-center transition-shadow group-hover:shadow-[0_0_16px_rgba(232,89,60,0.4)]">

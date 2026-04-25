@@ -2,39 +2,6 @@ import type { Metadata } from "next";
 import { Oswald, Barlow, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 
-/*
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Olympia Fitness Centre",
-  description: "Maaja Gym na idhu...",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
-  );
-}
-
-*/
 
 const oswald = Oswald({
   subsets: ["latin"],
